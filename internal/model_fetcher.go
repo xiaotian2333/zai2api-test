@@ -167,7 +167,7 @@ func initBuiltinMappings() {
 		EnableThinking:    false,
 		WebSearch:         false,
 		AutoWebSearch:     false,
-		MCPServers:        [],
+		MCPServers:        []string{},
 		OwnedBy:           "z.ai",
 		IsBuiltin:         true,
 	}
@@ -178,7 +178,7 @@ func initBuiltinMappings() {
 		EnableThinking:    true,
 		WebSearch:         false,
 		AutoWebSearch:     false,
-		MCPServers:        [],
+		MCPServers:        []string{},
 		OwnedBy:           "z.ai",
 		IsBuiltin:         true,
 	}
